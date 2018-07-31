@@ -29,7 +29,8 @@ Usage
 ### Include bootstrap file.
     require_once 'src/bootstrap.php';
 
-And after here's the index.php example file (you could use the variables in the way you want)
+And after here's the index.php example file (you could use the variables in the way you want):
+```
 <?php
 
 require_once 'src/bootstrap.php';
@@ -94,3 +95,4 @@ foreach ($route as $key => $value) {
     }
     print_r("\n----------------------------------\n");
 }
+```
